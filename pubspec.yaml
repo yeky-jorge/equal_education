@@ -1,0 +1,55 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.6.1
+  isar: ^3.0.0
+  isar_flutter_libs: ^3.0.0
+  path_provider: ^2.1.5
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  speech_to_text: ^7.0.0
+  flutter_tts: 3.8.5
+  image_picker: ^0.8.6
+  video_player: ^2.5.2
+  google_fonts: ^6.0.0
+  uuid: ^4.5.1
+
+
+dev_dependencies:
+#  flutter_test:
+#    sdk: flutter
+  isar_generator: ^3.0.0
+ # isar_inspector: any
+  build_runner: ^2.0.0
+  
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - lib/assets/videos/b_video.mp4
+    - lib/assets/img/3.png
+    - lib/assets/img/4.png
+    - lib/assets/img/7.png
+    - lib/assets/img/personas.png
+    - lib/assets/img/task.png
+
+
